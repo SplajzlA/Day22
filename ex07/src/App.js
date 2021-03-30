@@ -5,7 +5,9 @@ import Box from "./Box";
 class App extends Component {
   redner() {
     return (
+      <div className="container">
       <Box />
+      </div>
     )
   }
 }
